@@ -10,6 +10,7 @@ import Particles from './MagicUi';
 import { NeonGradientCard } from './BackgroundImage';
 import { Info } from '../Projects/CardInfo';
 
+
 const About = () => {
     const [opened, { open, close }] = useDisclosure(false);
     const btn = useMatches({
@@ -83,9 +84,9 @@ const About = () => {
                         </Button>
                         <Button
                             component="a"
-                            href='/path/to/CV.pdf'
+                            href="/Ashfaqur_Rashid.pdf"
                             size={btn}
-                            download="CV.pdf"
+                            download={`${Info.name}.pdf`}
                             className='text-white w-fit'
                             variant="outline"
                             color='#64FFDA'

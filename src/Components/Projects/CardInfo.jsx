@@ -1,5 +1,5 @@
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
-import image1 from '../../assets/Images/Ekart.png'
+import image1 from '../../assets/Images/Real_Estate2.png'
 import image2 from '../../assets/Images/Facebook.png'
 import image3 from '../../assets/Images/Travel.png'
 import image4 from '../../assets/Images/Instagram.png'
@@ -15,12 +15,24 @@ const Info = {
 
 const ProjectInfo = [
     {
-        title: "Ekart E-comm App",
-        desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
+        title: "Real estate Tailwind",
+        desc: `Real Estate Landing Page
+
+This is a modern, responsive real estate landing page built using HTML and Tailwind CSS, designed to deliver a clean and professional user interface.
+
+The page features a simple navigation bar with sections like Home, About, Property, and Contact, along with a prominent CTA button.
+
+A beautifully styled hero section invites users to find their dream home, supported by smooth typography and clean layout spacing.
+
+The design includes a property image carousel with left-right navigation and a bold button to guide users further.
+
+Icons used in the design are sourced from Flaticon, adding a modern and visually appealing touch to the UI.
+
+Perfect for showcasing properties or building a frontend prototype for real estate platforms.`,
         image: image1,
         live: true,
-        technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
-        link: "https://github.com/ashfaqur-rashidmo",
+        technologies: ["HTML", "Tailwind", "CSS", "Heroicons", "HeadlessUI"],
+        link: "https://property-html.netlify.app/",
         github: "https://github.com/ashfaqur-rashidmo"
     },
     {
