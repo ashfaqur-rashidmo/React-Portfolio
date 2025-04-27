@@ -1,6 +1,7 @@
+import { Slugs } from "../Projects/CardInfo.jsx";
 import IconCloud from "./Icon-Cloud.jsx";
-import { Slugs } from '../Projects/CardInfo.jsx'; 
 import { IconPentagon } from "@tabler/icons-react";
+
 
 export function Loader() {
   return (

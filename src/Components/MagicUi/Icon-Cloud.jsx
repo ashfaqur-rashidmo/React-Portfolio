@@ -36,6 +36,7 @@ export const cloudProps = {
 };
 
 // Function to render a custom icon with theming
+// renderCustomIcon receives both icon and theme
 export const renderCustomIcon = (icon, theme) => {
   const bgHex = theme === "light" ? "#f3f2ef" : "#080510";
   const fallbackHex = theme === "light" ? "#6e6e73" : "#ffffff";
@@ -55,6 +56,8 @@ export const renderCustomIcon = (icon, theme) => {
     },
   });
 };
+
+
 
 // Main IconCloud component
 export default function IconCloud({ iconSlugs }) {

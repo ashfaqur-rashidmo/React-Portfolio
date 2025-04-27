@@ -5,7 +5,8 @@ import image3 from '../../assets/Images/Travel.png'
 import image4 from '../../assets/Images/Instagram.png'
 import image5 from '../../assets/Images/Spotify.png'
 import image6 from '../../assets/Images/CodeX.png'
-import infosys from '../../assets/Images/Icons/Infosys (1).png'
+
+const infosys = '/public/Icons/Infosys (1).png'
 
 const Info = {
     name: "MD.Ashfaqur Rashid",
