@@ -1,10 +1,10 @@
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
-const image1 = '/public/Images/Real_Estate2.png'
-const image2 = '/public/Images/Bakery.png'
-const image3 = '/public/Images/career (2).png'
-const image4 = '/public/Images/Tour Mama.png'
-const image5 = '/public/Images/E-commerce.png'
-const image6 = '/public/Images/portfolio.png'
+const image1 = '/Images/Real_Estate.png'
+const image2 = '/Images/Bakery.png'
+const image3 = '/Images/career.png'
+const image4 = '/Images/Tour_Mama.png'
+const image5 = '/Images/E-commerce.png'
+const image6 = '/Images/portfolio.png'
 const infosys = '/Icons/Infosys (1).png'
 
 const Info = {
