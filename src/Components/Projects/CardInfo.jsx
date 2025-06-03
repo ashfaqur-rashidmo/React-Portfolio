@@ -1,10 +1,10 @@
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
 import image1 from '../../assets/Images/Real_Estate2.png'
-import image2 from '../../assets/Images/Facebook.png'
-import image3 from '../../assets/Images/Travel.png'
-import image4 from '../../assets/Images/Instagram.png'
-import image5 from '../../assets/Images/Spotify.png'
-import image6 from '../../assets/Images/CodeX.png'
+import image2 from '../../assets/Images/Bakery.png'
+import image3 from '../../assets/Images/career (2).png'
+import image4 from '../../assets/Images/Tour Mama.png'
+import image5 from '../../assets/Images/E-commerce.png'
+import image6 from '../../assets/Images/portfolio.png'
 
 const infosys = '/Icons/Infosys (1).png'
 
@@ -32,54 +32,56 @@ Icons used in the design are sourced from Flaticon, adding a modern and visually
 Perfect for showcasing properties or building a frontend prototype for real estate platforms.`,
         image: image1,
         live: true,
-        technologies: ["HTML", "Tailwind", "CSS", "Heroicons", "HeadlessUI"],
+        technologies: ["HTML", "Tailwind", "CSS", "Heroicons",],
         link: "https://property-html.netlify.app/",
-        github: "https://github.com/ashfaqur-rashidmo"
+        github: "https://github.com/ashfaqur-rashidmo/Property_HTML_CSS"
     },
     {
-        title: "Facebook Clone",
-        desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, posting, and commenting. The front end is built with React, TailwinCSS, Tabler-Icons, Mantine and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, post updates, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
+        title: "Bakery Food Menu",
+        desc: "A responsive bakery menu built with HTML, CSS, and JavaScript. It fetches product data from an API and displays items dynamically with images, names, prices, and descriptions. Includes category filters and a search feature. Designed for clean UI and smooth user interaction.",
         image: image2,
         live: false,
-        technologies: ["React", "Springboot", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
-        link: "https://github.com/ashfaqur-rashidmo",
-        github: "https://github.com/ashfaqur-rashidmo"
+        technologies: ["HTML", "Tailwind", "API","Javascript", "Tabler-Icons"],
+        link: "https://tools-mid-food.vercel.app/",
+        github: "https://github.com/ashfaqur-rashidmo/Tools_MID_Food"
+        
     },
     {
-        title: "Spotify Clone",
-        desc: "Spotify Clone is a full-stack web application that replicates the core features of Spotify, including user authentication, music playback, and playlist creation. The front end is built with React, TailwindCSS, Heroicons, and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, search for songs, and create playlists. The app features real-time updates, so users can see new songs as they are added. Spotify Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
+        title: "The Career Mission 2025",
+        desc: "The Career Mission 2025 is a dynamic and responsive web application that serves as a professional portfolio-style platform. While inspired by a Spotify Clone structure, this project highlights modern front-end design techniques using HTML, CSS, and Tabler Icons. The application showcases clean UI elements and interactive features, focusing on a polished user experience. Though not currently live, the project is hosted on GitHub and demonstrates proficiency in layout design, icon integration, and responsive styling. It's an excellent example of foundational web development skills applied in a real-world project setup.",
         image: image3,
         live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: "https://github.com/ashfaqur-rashidmo",
-        github: "https://github.com/ashfaqur-rashidmo"
+        technologies: ["HTML", "CSS", "Tabler-Icons"],
+        link: "https://ashfaqur-rashidmo.github.io/Assignment_PH/",
+        github: "https://github.com/ashfaqur-rashidmo/Assignment_PH"
     },
     {
-        title: "Travel Tracker",
-        desc: "Travel Tracker is a full-stack web application that allows users to track their travel experiences and share them with others. The front end is built with React, Bootstrap, while the back end uses Node.js, Express, and PostgresSQL. Users can create an account, log in, add new trips, and view their past trips on a map. The app features a clean, modern design with interactive maps and a user-friendly interface. Travel Tracker combines functionality with style, making it easy and enjoyable to record and share travel memories.",
+        title: "Tour Mama",
+        desc: "Tour Mama is a visually engaging web application designed to showcase travel destinations and experiences. Built using HTML, CSS, and curated images, this project emphasizes front-end design and user interaction. It features a clean layout, smooth navigation, and visually appealing sections that highlight various travel spots. While it currently does not include full-stack functionality, Tour Mama serves as a strong demonstration of static web design skills, responsive layouts, and image integration. The project provides a solid foundation for future enhancements such as dynamic content, user accounts, and interactive maps.",
         image: image4,
         live: false,
-        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://github.com/ashfaqur-rashidmo",
-        github: "https://github.com/ashfaqur-rashidmo"
+        technologies: ["HTML", "CSS", "Images"],
+        link: "https://tour-mama-ph.vercel.app/",
+        github: "https://github.com/ashfaqur-rashidmo/Tour_Mama_PH"
     },
     {
-        title: "Instagram Clone",
+        title: "E-commerce",
         desc: "Instagram Clone is a full-stack web application that replicates the core features of Instagram, including user authentication, image uploading, and commenting. The front end is built with React, TailwindCSS, and Heroicons, while the back end uses Firebase for user authentication and image storage. Users can create an account, log in, upload images, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Instagram Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
         image: image5,
         live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
+        technologies: ["React", "Redux", "Tailwind", "Icons","React-Router-Dom"],
         link: "https://github.com/ashfaqur-rashidmo",
-        github: "https://github.com/ashfaqur-rashidmo"
+        github: "https://github.com/ashfaqur-rashidmo/Food-Delivery"
     },
     {
-        title: "CodeX Code Editor",
-        desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, offering a seamless coding experience across all devices. It features syntax highlighting for popular programming languages, including HTML, CSS, JavaScript, Python, and Java. Users can create, edit, and save code files, with the option to download them as text files. CodeX combines robust functionality with a sleek, intuitive design, making coding effortless and enjoyable.",
+        title: "Portfolio",
+       desc: "This is a modern, fully responsive personal portfolio website built with React and TailwindCSS. It features sections like About Me, Skills, Projects, and Contact, all designed with a clean UI and smooth user experience. The site showcases my development expertise, highlights key projects, and provides links to my social profiles and GitHub. Optimized for all devices, it's a perfect platform for personal branding and job opportunities.",
+
         image:  image6,
         live: false,
-        technologies: ["React", "Tailwind", "Ace Editor"],
-        link: "https://github.com/ashfaqur-rashidmo",
-        github: "https://github.com/ashfaqur-rashidmo"
+        technologies: ["HTML", "CSS", "Responsive","icons"],
+        link: "https://portfolio-assignment-gray.vercel.app/",
+        github: "https://github.com/ashfaqur-rashidmo/Portfolio_Assignment"
     }
 ]
 
