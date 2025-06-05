@@ -53,12 +53,14 @@ const Header = () => {
 
     return (
         <nav className={`flex ${show ? 'translate-y-0' : '-translate-y-28'} ${shadow?'shadow-[0px_10px_30px_-10px_#020c1b]':''} transition-transform duration-500 ease-in-out fixed w-full z-10 bg-bgColor h-28 px-10 justify-between items-center`}>
+            <div className='group'>
             <IconHexagonLetterA 
-                className='z-10' 
+                className='z-10 transition transform duration-500 group-hover:rotate-180 group-hover:scale-110' 
                 size={isMobile ? 45 : 70} 
                 color='#64FFDA' 
                 stroke={1.25} 
             />
+            </div>
             <div className='hidden bs:flex gap-8 items-center ml-auto'>
                 {navLinks(false,null)}
             </div>
