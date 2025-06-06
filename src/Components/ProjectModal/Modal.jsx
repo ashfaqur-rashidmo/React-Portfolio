@@ -1,7 +1,7 @@
 import React from 'react';
 import { Badge, Button, Group, Image, Indicator, Modal, ScrollArea, Text } from '@mantine/core';
 
-const ModalComponent = ({ opened, onClose, title, live, desc, image, link, technologies, github}) => {
+const ModalComponent = ({ opened, onClose, title, live, desc, image, link, technologies, github,code}) => {
     return (
         
        <Modal.Root  scrollAreaComponent={ScrollArea.Autosize} size='70%' className='font-mono' opened={opened} onClose={onClose}>
@@ -34,7 +34,7 @@ const ModalComponent = ({ opened, onClose, title, live, desc, image, link, techn
                 {desc}
             </Text>
             <Group justify='space-between' mt='md'>
-            <a href='' target='blank' className='w-[48%]'><Button variant='filled' size='lg' color='#64FFDA' fullWidth mt="md" radius="md">
+            <a href={github} target='blank' className='w-[48%]'><Button variant='filled' size='lg' color='#64FFDA' fullWidth mt="md" radius="md">
                 View Code
             </Button></a>
             <a href={link} target='blank' className='w-[48%]'><Button variant='outline' size='lg' color='#64FFDA' className='text-[#ffffff]' fullWidth mt="md" radius="md">
